@@ -4,3 +4,8 @@ export type MenuItem = {
     name: string
     price: number
 }
+
+
+export type OrdeItem = MenuItem & {
+    quantity: number
+}
